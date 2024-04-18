@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    transition: background-color 0.3s; /*mudando a cor da pagina quando passarmos em cima do botão*/
+}
+.bnt-qualquer{
+    display: flex;
+    line-height: 45px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30vh;
+    font-size: 20px;
+    background: #ffc0cb;
+    box-shadow: 23px 10px 5px 0px rgba(191,135,179,0.75);
+    -webkit-box-shadow: 23px 10px 5px 0px rgba(191,135,179,0.75);
+    -moz-box-shadow: 23px 10px 5px 0px rgba(191,135,179,0.75);
+    border: 2px solid #b883b8;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s; /*transição para o botão mudar de cor quando passamos o mouse em cima*/
+    width: 200px;
+    height: 50px
+    
+}
+
+/*muda a cor de tudo q estiver associado ao botão que colocamos aqui quando passamos o mouse em cima*/
+.bnt-qualquer:hover{
+    background: #ffffff;
+    box-shadow: 23px 10px 5px 0px rgb(133, 133, 133);
+    -webkit-box-shadow: 23px 10px 5px 0px rgb(133, 133, 133);
+    -moz-box-shadow: 23px 10px 5px 0px rgb(133, 133, 133);
+    border: 2px solid #b1b1b1;
+    color:#ff00f2
+}
